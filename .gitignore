@@ -1,0 +1,12 @@
+# Ignore Environment Variables
+.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Docker cache
+.dockerignore
+
+# Ignore our local virtual environment if it exists
+venv/

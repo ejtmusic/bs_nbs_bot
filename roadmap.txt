@@ -1,0 +1,55 @@
+Of course. This is a complex but achievable project if we are methodical. I will guide you one step at a time.
+
+First, here is the high-level roadmap of our entire project.
+
+Project Roadmap: The "bs_nbs_bot"
+
+Phase 1: Setup and Foundations
+
+Step 1: Set up the Python virtual environment (venv) and install initial libraries.
+
+Step 2: Create an Injective wallet and securely store its credentials.
+
+Step 3: Write a script to connect to the Injective test network to confirm our setup works.
+
+Phase 2: Data & Model Preparation
+
+Step 4: Choose a single timeframe to start. We will begin with the 15-minute timeframe as it has a better signal-to-noise ratio.
+
+Step 5: Write a script to fetch and save historical data for a single coin (we will start with BTC/USDT).
+
+Step 6: Create the "features" for the ML model (e.g., price changes, volume changes).
+
+Step 7: Create the "labels" (the ground truth). We will programmatically define a "good buy" as any point where the price later goes up 3R before it goes down 1R. We will do the same for sells.
+
+Step 8: Split our data into training and testing sets.
+
+Phase 3: Machine Learning
+
+Step 9: Train our first Buy/No Buy model on the BTC data.
+
+Step 10: Evaluate the model's performance (win rate, etc.) on the test data.
+
+Step 11: Train and evaluate the Sell/No Sell model.
+
+Step 12: Repeat the process for the other 11 coins.
+
+Phase 4: The Trading Bot
+
+Step 13: Build the core logic of the bot (the main loop).
+
+Step 14: Integrate the trained ML models into the bot.
+
+Step 15: Implement the trading rules (place order, set stop-loss/take-profit based on 1:3 RR).
+
+Step 16: Implement our specific risk management ($1 profit goal, max 2 trades, etc.).
+
+Phase 5: Testing & Deployment
+
+Step 17: Run the bot on the Injective testnet with pretend money to ensure it works as expected.
+
+Step 18: Final review and activation on the mainnet with your $100.
+
+I have read and understood your goals. I have no more questions.
+
+Let's begin. When you are ready, say "Start Phase 1, Step 1".
