@@ -1,12 +1,9 @@
-# Ignore Environment Variables
+# Environment variables - DO NOT COMMIT
 .env
 
-# Ignore Python cache
+# Python cache
 __pycache__/
 *.pyc
 
-# Ignore Docker cache
-.dockerignore
-
-# Ignore our local virtual environment if it exists
-venv/
+# Docker
+.devcontainer/
